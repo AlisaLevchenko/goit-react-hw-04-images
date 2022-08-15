@@ -37,6 +37,7 @@ export default function App() {
 
   const handleFormSubmit = query => {
     setQuery(query);
+    setPage(1);
   };
 
   useEffect(() => {
